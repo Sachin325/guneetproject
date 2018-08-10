@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Regression Suite]" parallel="true">
+  <test name="MobileRegistrationPage3(failed)" parallel="true">
+    <classes>
+      <class name="com.LaunchDemo">
+        <methods>
+          <include name="DemoLauch"/>
+        </methods>
+      </class> <!-- com.LaunchDemo -->
+    </classes>
+  </test> <!-- MobileRegistrationPage3(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

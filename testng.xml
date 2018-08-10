@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" parallel="tests" thread-count="2">
+
+
+
+	<test name="MobileRegistrationPage">
+		<classes>
+			<class name="com.LaunchDemo" />
+		</classes>
+	</test>
+	<test name="MobileRegistrationPage2">
+		<classes>
+			<class name="com.LaunchDemo" />
+		</classes>
+	</test>
+	<test name="MobileRegistrationPage3">
+		<classes>
+			<class name="com.LaunchDemo" />
+		</classes>
+	</test>
+	<test name="MobileRegistrationPage4">
+		<classes>
+			<class name="com.LaunchDemo" />
+		</classes>
+	</test>
+</suite>
