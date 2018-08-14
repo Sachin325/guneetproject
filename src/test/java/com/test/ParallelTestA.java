@@ -20,7 +20,7 @@ public class ParallelTestA {
 		System.out.println("*******************");
 		driver = Browser.getDriver(browser);
 		driver.manage().window().maximize();
-		System.out.println("*******************");
+		System.out.println("*****--------------**************");
 
 	}
 
